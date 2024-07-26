@@ -1,0 +1,15 @@
+.project_photo {
+    /* display: block; */
+    margin-left: auto;
+    width: 20%; /* size of image */
+    border-radius: 10%; /* radius of image */
+    float: left;
+}
+.project_view {
+    display: flex;
+    align-items: center;
+}
+.project_view h4 {
+    padding: 10px;
+    margin-right: auto;
+}

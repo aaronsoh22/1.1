@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Aaron</title>
+        <link rel="stylesheet" href="./css/headerimage.css">
+        <link rel="stylesheet" href="./css/projectview.css">
+        <link rel="stylesheet" href="./css/photogallery.css">
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                color: DodgerBlue;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                /* background-color: #dddddd; */
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                padding: 8px;
+                color: DodgerBlue;
+            }
+            hr {
+                width: 10%;
+                border: 1px solid DodgerBlue;
+            }
+        </style>
+        <style>
+            .profile_photo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 5%; /* size of image */
+                border-radius: 40%; /* radius of image */
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li>
+                <a style="text-decoration: none;" href="#about">About</a>
+            </li>
+            <li>
+                <a style="text-decoration: none;" href="#home">Work</a>
+            </li>
+            <li>
+                <a style="text-decoration: none;" href="#contact">Contact</a>
+            </li>
+        </ul>
+        <div class="container">
+            <img src="./images/deakin.avif" alt="Deakin" class="header_image">
+            <div class="overlay">
+                Hey, I'm Aaron
+            </div>
+        </div>
+        <p>
+            <div>
+                <img src="./images/profile.jpg" alt="Profile" class="profile_photo">
+            </div>
+        </p>
+        <p>
+            <h4 style="text-align: center;">
+                I am a full-stack web developer based in Melbourne, Australia.
+            </h4>
+        </p>
+        <hr>
+        <br>
+        <p>
+            <h2 style="text-align: center;">
+                Here's what I've done so far
+            </h2>
+        </p>
+        <p>
+            <div class="project_view">
+                <img src="./images/Project_1.jpg" alt="Project1" class="project_photo">
+                <h4>Project description...</h4>
+            </div>
+        </p>
+        <p>
+            <div class="project_view">
+                <img src="./images/Project_2.png" alt="Project2" class="project_photo">
+                <h4>Project description...</h4>
+            </div>
+        </p>
+        <br>
+        <hr>
+        <p>
+            <h2 style="text-align: center;">
+                My photos
+            </h2>
+        </p>
+        <div class="photo_row">
+            <div class="photo_column">
+                <image src="./images/photo_1.avif" style="width: 100%;">
+            </div>
+            <div class="photo_column">
+                <image src="images/photo_2.png" style="width: 100%;">
+            </div>
+            <div class="photo_column">
+                <image src="images/photo_3.jpg" style="width: 100%;">
+            </div>
+            <div class="photo_column">
+                <image src="images/photo_4.jpeg" style="width: 100%;">
+            </div>
+        </div>
+    </body>
+</html>
